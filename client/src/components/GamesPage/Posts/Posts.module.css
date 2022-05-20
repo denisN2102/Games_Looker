@@ -1,0 +1,16 @@
+.item {
+  display: flex;
+  color: rgb(0, 0, 0);
+  font-family: serif;
+  font-size: 19px;
+}
+.item img {
+  border-radius: 50px;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+.comment {
+  margin-top: 40px;
+  margin-left: 20px;
+}

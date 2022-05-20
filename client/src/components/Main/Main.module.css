@@ -1,0 +1,42 @@
+.main {
+  display: "flex";
+  flex-direction: "row";
+}
+
+.wrapp {
+}
+
+.games {
+  display: flex;
+  flex-direction: column;
+}
+.image {
+  height: 250px;
+  width: 250px;
+}
+.links {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+
+  padding: 25px;
+}
+
+.linked a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-weight: bold;
+  position: relative;
+  display: block;
+  padding-bottom: 6px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  text-transform: uppercase;
+  color: #3a3a4d;
+  border-bottom: 2px rgba(0, 0, 0, 0) solid;
+}
+
+.linked a:hover {
+  color: rgb(115, 190, 227);
+}

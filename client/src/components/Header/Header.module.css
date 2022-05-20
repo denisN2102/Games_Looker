@@ -1,0 +1,15 @@
+.wrapp {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+}
+.image {
+  height: 50px;
+}
+
+.text {
+  font-family: "Libre Bodoni", serif;
+  font-size: 30px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
